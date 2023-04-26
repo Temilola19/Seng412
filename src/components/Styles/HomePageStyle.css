@@ -1,0 +1,85 @@
+.home-container{
+    background-color: #fff;
+    margin: 0;
+    padding-bottom: 30px;
+    font-family: 'Work Sans', sans-serif;
+    height: 100%;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 30px;
+   padding-left: 15px;
+   padding-right: 15px;
+   column-gap:5px ;
+  
+    height: 400px;
+    /* background-color: #32021f; */
+    color: #f5f5f5;
+  
+    background-position: center;
+background-repeat: no-repeat;
+}
+
+.feature1{
+        flex-grow: 1;
+        height: 100%;
+        background: linear-gradient(to bottom, #000000c2, #32021f80), url("../Images/pexels-anna-nekrashevich-6203795.jpg");
+            background-size: cover;
+            object-fit: cover;
+            background-position: center;
+            border-radius: 30px;
+            padding: 30px;
+           
+}
+
+.feature2{
+    background: linear-gradient(to bottom, #000000c2, #32021f80), url("../Images/typing.png");
+        background-size: cover;
+        object-fit: cover;
+       background-position: center;
+       border-radius: 30px;
+       padding: 30px;
+       margin-bottom:5px;
+       height:165px;
+     
+}
+
+.feature3 {
+    background: linear-gradient(to bottom, #000000c2, #32021f80), url("../Images/pexels-plann-4549414.jpg");
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    border-radius: 30px;
+    padding: 30px;
+    height: 165px;
+   
+}
+
+h3{
+    color: #f5f5f5;
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.username{
+    background-color: #32021f21;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.hero h3{
+    margin-top: 30px;
+    margin-bottom: 1px;
+}
+
+.nextgrid h3{
+    margin-top: 40px;
+    font-size: 30px !important;
+}

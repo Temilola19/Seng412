@@ -1,0 +1,61 @@
+.login-container {
+    background-color: #ffffff;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.box-container2 {
+    background: linear-gradient(to bottom, #000000c2, #084143cb), url("../Images/pexels-cottonbro-studio-5076535.jpg");
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: #32021f; */
+    border-right: 30px solid #32021f;
+    padding-left: 100px;
+    padding-top: 100px;
+    width: 600px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 500px;
+}
+
+.header {
+    color: #5da399;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.grid-con2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+
+    align-items: center;
+    column-gap: 15px;
+    width: fit-content;
+}
+
+.grid-con2 p {
+    color: #f5f5f5;
+    text-align: center;
+    background-color: #084143;
+    width: 100px;
+    height: fit-content;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.grid-con2 p:hover {
+
+    border: 2px solid #084143;
+}
+
+.idk {
+    width: 450px;
+    color: #cbcbcb;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+}
